@@ -22,7 +22,7 @@
     "start-js": "react-scripts start",
     "build-js": "react-scripts build",
     "build": "npm-run-all build:css build-js",
-    "test": "NODE_ENV=test mocha --require @babel/register --require ignore-styles src/test/*.test.js",
+    "test": "NODE_ENV=test mocha --require @babel/register --require ignore-styles src/**/*.test.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
