@@ -1,13 +1,13 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import Index from "./Index";
+import Landing from "../features/LandingPage/";
 
 export default () => (
   <BrowserRouter>
     <Switch>
       <Route path="/">
-        <Index />
+        <Landing />
       </Route>
     </Switch>
   </BrowserRouter>
