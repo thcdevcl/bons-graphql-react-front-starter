@@ -1,6 +1,6 @@
-# BONS
+## BONS
 
-## React GraphQL Starter Front
+### GraphQL React Front-End Starter
 
 Bare minimum files and folders to kick off new front-end projects following [Bons Dev Handbook](https://github.com/bons/handbook) guidelines.
 
